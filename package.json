@@ -1,0 +1,29 @@
+{
+  "name": "discordBot",
+  "version": "0.1.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "2tle",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/opus": "^0.3.2",
+    "cheerio": "^1.0.0-rc.3",
+    "discord.js": "^12.3.1",
+    "ffmpeg": "0.0.4",
+    "ffmpeg-static": "^4.2.7",
+    "fluent-ffmpeg": "^2.1.2",
+    "moment": "^2.27.0",
+    "node-fetch": "^2.6.0",
+    "nodemon": "^2.0.4",
+    "pm2": "^4.4.1",
+    "request": "^2.88.2",
+    "sync-request": "^6.1.0",
+    "urlencode": "^1.1.0",
+    "ytdl-core": "^3.2.2"
+  }
+}
